@@ -5,9 +5,6 @@ msg = msg.lower()
 
 msg_count = {}
 
-# for letter in alphabet:
-#     msg_count[letter] = 0
-
 for c in msg:
     if c in alphabet:
         if c in msg_count:
